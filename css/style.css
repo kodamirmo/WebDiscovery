@@ -13,6 +13,9 @@ header {
     margin-bottom: 60px;
     z-index: 9999;
 }
+footer {
+	padding-top: 30px;
+}
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Lato', sans-serif;
 }
@@ -34,6 +37,9 @@ input {
 }
 .navbar-nav>li>a {
 	padding: 0px 20px;
+}
+.fontSmall {
+	font-size: .7em;
 }
 .font2em{
 	font-size: 1.3em;
@@ -240,13 +246,19 @@ input {
 	border: 1px solid #c2bfbf;
 	width: 130px;
 }
+.pt-5 {
+	padding-top: 5px;
+}
 .p-box-3 {
 	padding: 0% 3% 30px 3%;
 }
 .p-botton {
 	padding: 2px 15px;
 }
-.pt-2{
+.pt-15 {
+	padding-top: 15px;
+}
+.pt-20{
 	padding-top: 20px;
 }
 .pt-1{
@@ -298,6 +310,7 @@ input {
 	border: transparent;
 	margin-bottom: 15px;
 }
+
 .left {
 	float: left;
 }
@@ -498,12 +511,17 @@ black 900 Italic
 .pb-20 {
 	padding-bottom: 20px;
 }
-
+.pb-5-20 {
+	padding: 5px 20px !important;
+}
 .bg-blue-rgba {
 	background-color: rgba(0, 108, 157, 0.8);
 }
 .bg-blue {
 	background-color: #02ABCC;
+}
+.bg-turquesa {
+	background-color: #00b3ba;
 }
 .box-form {
 	background-color: #FFFFFF;
@@ -629,6 +647,11 @@ black 900 Italic
 	height: 390px;
 	padding-right: 30px;
 }
+.box-gray-auto {
+	border-radius: 20px;
+	height: 200px;
+	border: 1px solid #c2bfbf;
+}
 .box-gray-small {
 	border-radius: 20px;
 	border: 1px solid #c2bfbf;
@@ -652,6 +675,9 @@ black 900 Italic
 .box-radius-10 {
 	border-radius: 10px;
 	height: 15px;
+}
+.box-radius-25 {
+	border-radius: 25px;
 }
 .hover-blue:hover {
 	color: #00b3ba;
@@ -683,4 +709,142 @@ black 900 Italic
 .input-form-box50 {
 	width: 49.5%;
 	display: inline-block;
+}
+
+/*** tabs-profile ***/
+.prueba {
+	background-color: #FFFFFF;
+}
+.panel-heading>.nav>li>a {
+    padding: 20px 15px;
+}
+.nav-tabs>li {
+	width: 25%;
+	text-align: center;
+	border-top-left-radius: 40px;
+    border-top-right-radius: 40px; 
+}
+.border-menu-tabs {
+	border-left: 1px solid #FFFFFF;
+}
+.brt-left {
+	border-top-left-radius: 40px !important;
+}
+.brt-right {
+	border-top-right-radius: 40px !important; 
+}
+.panel-primary {
+	border-radius: 40px;
+	border: 1px solid transparent;
+}
+.panel.with-nav-tabs .panel-heading{
+    padding: 0px;
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+    background-color: #00b3ba;
+    border-color: #00b3ba;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #007377;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #00b3ba;
+	background-color: #fff;
+	border-bottom-color: transparent;	
+}
+.panel-body {
+	padding: 60px 40px;
+	border: 1px solid #00b3ba;
+	border-top: transparent;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+/*Perfil de usuario*/
+.input-m {
+	width: 80%;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.form-tabs {
+	width: 70%;
+	margin: auto;
+}
+.nav-tabs>li>a {
+    margin-right: 0;
+    border-radius: 0;
+}
+.box-orange {
+	background-color: #f69404;
+	border-radius: 30px;
+	padding: 5px 10px;
+}
+.box-border-right {
+	border-right: 1px solid #00b3ba;
+	display: inline-block;
+	padding-right: 2%;
+	margin-right: 2%;
+}
+.btn-usuario-fav {
+	border: transparent;
+}
+.p-bnt-usuario {
+	padding: 10px 20px;
+}
+.status-profile {
+	border-radius: 100%;
+	height: 60px;
+	padding: 0px 10px;
+}
+.box-border-lv {
+	padding: 0px 3%;
+	margin: 0px 3%;
+	border-left: 1px solid #00b3ba;
+	border-right: 1px solid #00b3ba;
+	display: inline-block;
+}
+.box-border-lvb {
+	border-left: 1px solid #c2bfbf;
+	border-right: 1px solid #c2bfbf;
+	display: inline-block;
+}
+/*Perfil de Constructora*/
+.box-arquitecto {
+	padding: 35px 10px 25px 23px;
+}
+.bg-perfil-constructora1 {
+	background-image: url('../img/places/place1.jpg');
+}
+.bg-perfil-constructora2 {
+	background-image: url('../img/places/place2.jpg');
+}
+.bg-perfil-constructora3 {
+	background-image: url('../img/places/place3.jpg');
+}
+.box--tabs-img-constr {
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 198px;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 198px;
+}
+.mt-vertical-aling {
+	margin-top: 40%;
 }
