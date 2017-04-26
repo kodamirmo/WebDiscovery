@@ -125,15 +125,12 @@ input {
 }
 .bck-gry{
 	background-color: #E3E3E3;
-	/*height: 150px;*/
 }
 .bck-gry2{
 	background-color: #4E4D55;
-	/*height: 150px;*/
 }
 .bck-beig{
 	background-color: rgb(213,200,157);
-	/*height: 150px;*/
 }
 .bg-gray {
 	background-color: rgba(232, 228, 228, 0.59);
@@ -167,10 +164,6 @@ input {
 .con-flud-0p{
 	padding-right: 0px;
 	padding-left: 0px;
-}
-.fnd-cyn{
-	background-image: url("../img/fnd-cyn.jpg");
-	height: 140px;
 }
 .btn-blue {
 	padding: 15px 40px;
@@ -232,6 +225,7 @@ input {
 	border: 1px #0D9AD7 solid;
 	width: 200px;
 	margin-right: 0px;
+	margin-top: -5px;
 }
 .hr-wht{
 	border: .5px #fff solid;
@@ -279,15 +273,16 @@ input {
 .pb-2{
 	padding-bottom: 2%;
 }
+.pb-35 {
+	padding-bottom: 35px;
+}
 .pb-120 {
 	padding-bottom: 120px;
 }
-.btn-cyn-red{
-	background-color:  #0D9AD7;
+.btn-mas-index{
 	border-radius: 50px;
 	border: transparent;
-	padding: 5px;
-	width: 110px;
+	padding: 5px 30px;
 }
 .img-50{
 	width: 60%;
@@ -320,10 +315,14 @@ input {
 .border-r6 {
 	border-radius: 6px !important;
 }
-
 .li-inl{
 	display: inline;
 	padding-right: 20px;	
+}
+.carousel-control-index {
+	margin-top: 170px !important;
+	margin-right: -15px;
+	margin-left: -15px;
 }
 .carousel-control {
   position: absolute;
@@ -338,7 +337,6 @@ input {
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
   opacity: .5;
-  /*border-radius: 50px;*/
 }
 .carousel-control.left, .carousel-control.right {
 	background-image: linear-gradient(to right,rgba(0,0,0,.0) 0,rgba(0,0,0,.0001) 100%);
@@ -353,9 +351,6 @@ input {
     padding-right: 10%; 
     color: #FFF;
 }
-/*.glyphicon-circle-arrow-left,.glyphicon-circle-arrow-right{
-	top: 50%;
-	font-size: 1.5em;}*/
 
 /*BOTONES*/
 .btn-cyan-grd{
@@ -381,31 +376,7 @@ input {
 	padding-left: 3%;
 	margin-top: 2%;
 	background-color: rgb(213,200,157);
-
 }
-
-/*
-LORA
-regular 400
-regular 400 Italic
-bold 700
-bold 700 Italic
-
-LATO
-thin 100
-thin 100 Italic
-light 300
-light 300 Italic
-regular 400
-regular 400 Italic
-bold 700
-bold 700 Italic
-black 900
-black 900 Italic
-*/
-
-
-
 /*cajas*/
 .box-padding {
 	padding: 20px;
@@ -542,9 +513,6 @@ black 900 Italic
 .inLine {
 	display: inline;
 }
-
-
-
 /* carousel pdf */
 .media-carousel {
   padding: 0 40px 30px 40px;
@@ -571,8 +539,6 @@ black 900 Italic
 .btn-carousel:hover {
 	background-color: #008cba;
 }
-/* End carousel */
-
 /*Nuevo proyecto*/
 .border-r-10 {
 	border-radius: 10px;
