@@ -647,6 +647,7 @@ input {
 }
 .hover-blue:hover {
 	color: #00b3ba;
+	text-decoration: underline;
 }
 .bg-rgba-gray {
 	background-color: rgba(0, 0, 0, 0.64);
