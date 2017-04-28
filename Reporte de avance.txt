@@ -1,0 +1,8 @@
+Reporte
+
+Perfil de usuario: pantallas 3/3 pero falta contenido de tab 2
+Index: pantallas 1/1
+Perfil constructora: 4/6 pero falta contenido de tab 2
+Campañas: pantallas 4/4
+Incio de sesión: pantallas 2/2
+Perfil de administrador: 1/5

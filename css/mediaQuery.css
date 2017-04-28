@@ -139,6 +139,14 @@
 		border-top-right-radius: 20px;
 		border-bottom-left-radius: 0px;
 	}
+	/*Administrador*/
+	.rowb {
+		float: none;
+		margin-left: auto;margin-right: auto;
+	}
+	.width-p {
+		width: 100%;
+	}
 }
 
 @media only screen and (min-width:769px) and (max-width:992px){

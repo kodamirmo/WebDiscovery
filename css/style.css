@@ -117,6 +117,9 @@ input {
 .margin-box {
 	margin: 20px 0px;
 }
+.padding-box15-0 {
+	padding: 15px 0px;
+}
 .paddin-box {
 	padding: 20px 0px;
 }
@@ -128,6 +131,12 @@ input {
 }
 .bck-gry2{
 	background-color: #4E4D55;
+}
+.bck-gry3{
+	background-color: #eeeeee;
+}
+.bg-red {
+	background-color: red;
 }
 .bck-beig{
 	background-color: rgb(213,200,157);
@@ -255,6 +264,10 @@ input {
 .pt-20{
 	padding-top: 20px;
 }
+.pt-30 {
+	padding-top: 30px;
+}
+}
 .pt-1{
 	padding-top: 1%;
 }
@@ -264,8 +277,8 @@ input {
 .pl-30 {
 	padding-left: 30px;
 }
-.pt-5{
-	padding-top: 5%;
+.pr-45 {
+	padding-right: 45px;
 }
 .pb-5{
 	padding-bottom: 5%;
@@ -381,6 +394,15 @@ input {
 .box-padding {
 	padding: 20px;
 }
+.box-padding-10-15 {
+	padding: 10px 15px;
+}
+.box-radius-20 {
+	border-radius: 20px;
+}
+.border-gray-light {
+	border: 1px solid #97999a;
+}
 .box-border-blue {
 	border-radius: 20px;
 	border: 1.5px solid #00b3ba;
@@ -489,7 +511,7 @@ input {
 	background-color: rgba(0, 108, 157, 0.8);
 }
 .bg-blue {
-	background-color: #02ABCC;
+	background-color: #0E9BD8; 
 }
 .bg-turquesa {
 	background-color: #00b3ba;
@@ -814,4 +836,31 @@ input {
 }
 .mt-vertical-aling {
 	margin-top: 40%;
+}
+/*Administrador*/
+.rowb {
+	width: 71.5%;
+	float: right;
+}
+.border-b-documentos {
+	border-bottom: 40px solid #E3E3E3;
+}
+.btn-documentos {
+	margin-top: -10px;
+	background-color: transparent;
+	border: transparent;
+}
+.pt-fecha {
+	padding-top: 60px;
+}
+.border-mensaje {
+	border-top: 1px solid #97999a;
+	border-bottom: 1px solid #97999a;
+}
+.border-b-radius {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.width-p {
+	width: 40%;
 }
