@@ -147,6 +147,13 @@
 	.width-p {
 		width: 100%;
 	}
+	.pr-45 {
+		padding-right: 0px;
+	}
+	.admin-title-responsive {
+		font-size: 1.5em;
+		margin-top: 85px;
+	}
 }
 
 @media only screen and (min-width:769px) and (max-width:992px){

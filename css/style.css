@@ -41,6 +41,9 @@ input {
 .fontSmall {
 	font-size: .7em;
 }
+.fontSmall-8 {
+	font-size: .8em;
+}
 .font2em{
 	font-size: 1.3em;
 }
@@ -285,6 +288,9 @@ input {
 }
 .pb-2{
 	padding-bottom: 2%;
+}
+.pb-20 {
+	padding-right: 20px;
 }
 .pb-35 {
 	padding-bottom: 35px;
@@ -828,7 +834,7 @@ input {
 }
 .box--tabs-img-constr {
 	background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center;*/
     background-size: auto 198px;
     border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -861,6 +867,23 @@ input {
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
+.border-t-radius {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
 .width-p {
 	width: 40%;
+}
+.box-admin {
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 150px;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 150px;
+}
+.box-gray-admin {
+	border-radius: 20px;
+    height: 150px;
+    border: 1px solid #c2bfbf;
 }
