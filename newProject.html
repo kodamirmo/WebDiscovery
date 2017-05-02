@@ -25,10 +25,10 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li class="li-border active"><a href="index.html">QUIENES SOMOS</a></li>
-              <li class="li-border"><a href="campanas.html">CAMPAÑAS</a></li>
-              <li class="li-border"><a href="login.html"><span class="txt-cyan"><strong>INICIO DE SESIÓN</strong></span></a></li>
-              <li><a href="registrate.html"><span class="txt-cyan"><strong>REGISTRATE</strong></span></a></li>
+              <li class="li-border active"><a href="index.html">INICIO</a></li>
+              <li class="li-border"><a href="#">QUIENES SOMOS</a></li>
+              <li class="li-border"><a href="campanas.html"><span class="txt-cyan"><strong>CAMPAÑAS</strong></span></a></li>
+              <li><a href="#"><span class="txt-cyan"><strong>HOLA INTRACOAST</strong></span></a></li>
             </ul>
           </div>
         </div>
@@ -36,37 +36,37 @@
   	</header>
     <section>
       <div class="container">
-        <div class="row mt-60 box-form">
+        <div class="row mt-60 mb-30 box-form">
           <h1 class="text-center">Nuevo proyecto</h1>
           <hr class="hr-blue-center">
           <div class="col-lg-8 col-xs-12">
             <form>
-              Nombre:<br>
+              <label for="Nombre">Nombre:</label><br>
               <input type="text" name="nombre" class="input-newP"><br>
-              Plazo de devolución:<br>
+              <label for="Plazo">Plazo de devolución:</label><br>
               <input type="text" name="devolucion" class="input-newP">
-              Inversión mínima:<br>
+              <label for="Inversion">Inversión mínima:</label><br>
               <input type="text" name="devolucion" class="input-newP">
-              Tasa de retorno:<br>
+              <label for="tasa">Tasa de retorno:</label><br>
               <input type="text" name="devolucion" class="input-newP">
-              localización:<br>
+              <label for="localizacion">localización:</label><br>
               <input type="text" name="devolucion" class="input-newP">
-              Inversión mínima:<br>
+              <label for="inversion">Inversión mínima</label>:<br>
               <input type="text" name="devolucion" class="input-newP">
-              Avalado por la empresa:<br>
+              <label for="avalado">Avalado por la empresa:</label><br>
               <input type="text" name="devolucion" class="input-newP">
-              Descripción corta:<br>
+              <label for="descripcion">Descripción corta:</label><br>
               <textarea type="text" name="devolucion" class="input-newP" rows="5"></textarea>
-              Descripción larga:<br>
+              <label for="descripcion">Descripción larga:</label><br>
               <textarea type="text" name="devolucion" class="input-newP" rows="9"></textarea>
               <hr>
               <div class="bg-beige text-center">
                 <h4 class="font-blue bold text-left">Línea del tiempo</h4>
                 <div class="row">
                   <div class="col-lg-8 col-xs-12 text-left">
-                    Año:
+                    <label for="año">Año:</label>
                     <input type="text" name="devolucion" class="input-newP">
-                    Descripción:<br>
+                    <label for="descripcion">Descripción:</label><br>
                     <textarea type="text" name="devolucion" class="input-newP" rows="5"></textarea>
                   </div>
                   <div class="col-lg-4 col-xs-12">
@@ -76,27 +76,28 @@
                     </div>
                   </div>
                 </div>
-               <a href=""><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium-plus ml-5">Agregar Año</span></a>
+               <a href="#" class="font-gray-dark p-medium-plus"><i class="fa fa-plus-circle font-blue" aria-hidden="true"></i> Agregar Año</a>
               </div>
               <hr class="hr-gray ">
-              <h5>Mapa:</h5>
+              <label for="mapa">Mapa:</label>
               <textarea type="text" name="devolucion" class="input-newP" rows="4"></textarea>
-              <h4>Archivos PDF descargables</h4>
-              <div class="mt-20">
-                <div class="inLine mr-20"><a href="#"><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium ml-5">Agregar</span></a></div>
-                <div class="inLine mr-20"><a href="#"><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium ml-5">Agregar</span></a></div>
-                <div class="inLine mr-20"><a href="#"><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium ml-5">Agregar</span></a></div>
+              <h4 class="mb-40">Archivos PDF descargables</h4>
+              <div class="mr-20 inlblock mt-30 mb-30">
+                <a href="#" class="font-gray-dark font2em"><i class="fa fa-plus-circle font-blue" aria-hidden="true"></i> Agregar</a>
               </div>
-              <div class="mt-20 mb-20">
-                <div class="inLine mr-20"><a href="#"><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium ml-5">Agregar</span></a></div>
-                <div class="inLine mr-20"><a href="#"><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium ml-5">Agregar</span></a></div>
-                <div class="inLine mr-20"><a href="#"><img src="img/iconos/masBoton.png" alt="" class="ico-20px"><span class="p-medium ml-5">Agregar</span></a></div>
-              </div>
-              <h4>Video</h4>
+              <div class="dropdown inlblock">
+                <button class="dropdown-toggle btn-tipo font2em" type="button" data-toggle="dropdown"><span class="caret font-blue"></span> Tipo</button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">falta info</a></li>
+                  <li><a href="#">falta info</a></li>
+                  <li><a href="#">falta info</a></li>
+                </ul>
+              </div><br>
+              <label for="video">Video:</label>
               <input type="text" name="devolucion" class="input-newP">
             </form>
-            <button class="mb-20 font2em right ml-5 btn-red bold">Eliminar</button>
-            <button class="mb-20 font2em right btn-gray bold">Añadir proyecto</button>
+            <button class="mt-20 mb-20 font2em right ml-5 btn-red bold">Eliminar</button>
+            <button class="mt-20 mb-20 font2em right btn-gray bold">Añadir proyecto</button>
           </div>
           <div class="col-lg-4 col-xs-12">
             <div class="box-border-blue box-border-blue-hover text-center box-padding">
@@ -129,9 +130,6 @@
                 </div>
               </div>
             </div>
-            <hr class="hr-gray ">
-            <h3>Factor de Riesgo</h3>
-            <h5>Nivel 3</h5>
           </div>
         </div>
       </div>
