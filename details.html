@@ -111,44 +111,184 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
-            <button class="margin-box btn-blue bold txt-wht p-medium-plus bg-blue-gradient">Aparta Ahora</button>
+            <button type="button" class="margin-box btn-blue bold txt-wht p-medium-plus bg-blue-gradient" data-toggle="modal" data-target="#myModal-apartar">Apartar Ahora</button>
+            <!-- Modal apartar -->
+            <div class="modal fade" id="myModal-apartar" role="dialog">
+              <div class="modal-dialog margin-modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn-modal font-blue" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                  <h2 class="lighter">Para ver esta sección tienes <br>que apartar</h2>
+                  <div class="col-lg-6 col-xs-12 mt-20 mb-30"><button class="bg-turquesa txt-wht btn-apartar lighter">Apartar</button></div>
+                  <div class="col-lg-6 col-xs-12 mt-20 mb-30"><button class="bck-gry2 txt-wht btn-apartar lighter">Cancelar</button></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn-modal font-blue" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="row mt-40">
               <div class="col-lg-3 mt-20">
-                <div class="box-border-blue pb-20">
+                <div class="box-border-blue pb-20 bg-gray">
                   <div class="box-img-small box-bg-1"></div>
                   <h4 class="mt-20 font-gray-dark line-height-small bold bold">Jaime Piña Ramírez</h4>
                   <h5 class="font-blue line-height-small bold">Arquitecto</h5>
                   <hr class="hr-blue-center-small">
-                  <a href="#" class="font-gray-dark">Ver más</a>
+                  <button type="button" class="btn-modal" data-toggle="modal" data-target="#myModal-1">Ver más</button>
                 </div>
               </div>
               <div class="col-lg-3 mt-20">
-                <div class="box-border-blue pb-20">
+                <div class="box-border-blue pb-20 bg-gray">
                   <div class="box-img-small box-bg-2"></div>
                   <h4 class="mt-20 font-gray-dark line-height-small bold">Intracoast Homes LLC</h4>
                   <h5 class="font-blue line-height-small bold">Constructora</h5>
                   <hr class="hr-blue-center-small">
-                  <a href="#" class="font-gray-dark">Ver más</a>
+                  <button type="button" class="btn-modal" data-toggle="modal" data-target="#myModal-2">Ver más</button>
                 </div>
               </div>
               <div class="col-lg-3 mt-20">
-                <div class="box-border-blue pb-20">
+                <div class="box-border-blue pb-20 bg-gray">
                   <div class="box-img-small box-bg-3"></div>
                   <h4 class="mt-20 font-gray-dark line-height-small bold">Grim & Kreig</h4>
                   <h5 class="font-blue line-height-small bold">avalada por la empresa</h5>
                   <hr class="hr-blue-center-small">
-                  <a href="#" class="font-gray-dark">Descargar</a>
+                  <button type="button" class="btn-modal" data-toggle="modal" data-target="#myModal-3">Descargar</button>
                 </div>
               </div>
               <div class="col-lg-3 mt-20">
-                <div class="box-border-blue pb-20">
+                <div class="box-border-blue pb-20 bg-gray">
                   <div><img src="" alt=""></div>
                   <h2 class="mt-20 font-gray-dark p-medium-plus">FACTOR DE RIESGO</h2>
                   <hr class="hr-blue-center-small">
                   <p class="font-blue font-size-plus">A+</p>
                   <h5 class="pb-20 bold">Riesgo medio</h5>
-                  <a href="#" class="font-gray-dark">Ver más</a>
+                  <button type="button" class="btn-modal" data-toggle="modal" data-target="#myModal-4">Ver más</button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container"><!-- Anexo de Modales -->
+      <!-- Modal 1 -->
+        <div class="modal fade" id="myModal-1" role="dialog">
+          <div class="modal-dialog margin-modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close btn-modal font-blue" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="col-lg-6 col-xs-12">
+                  <div class="box-img-small box-bg-1 mt-20 br-0"></div>
+                  <h4 class="mt-20 font-gray-dark line-height-small bold bold">Jaime Piña Ramírez</h4>
+                  <h5 class="font-blue line-height-small bold mb-50">Arquitecto</h5>
+                  <a href="#" class="icons-modal"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-6 col-xs-12 text-left">
+                  <h3 class="font-blue mt-20">Biografía</h3>
+                  <hr class="hr-blue-short">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem fugiat autem quae vel omnis nihil aliquam dolorem est? Rem dolorum unde, ut fugit, laboriosam nostrum quis repudiandae ab facilis.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum libero necessitatibus cupiditate nam id placeat nesciunt, dolorum non nisi et qui nulla deleniti ipsa provident blanditiis ab quasi, inventore. Quam.</p>
+                  <a href="#">www.jaime.prueba</a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-modal font-blue" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 2 -->
+        <div class="modal fade" id="myModal-2" role="dialog">
+          <div class="modal-dialog margin-modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close btn-modal font-blue" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="col-lg-6 col-xs-12">
+                  <div class="box-img-small box-bg-2 mt-20 br-0"></div>
+                  <h4 class="mt-20 font-gray-dark line-height-small bold bold">Intracoast Homes LLC</h4>
+                  <h5 class="font-blue line-height-small bold mb-50">Constructora</h5>
+                  <a href="#" class="icons-modal"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-6 col-xs-12 text-left">
+                  <h3 class="font-blue mt-20">Biografía</h3>
+                  <hr class="hr-blue-short">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem fugiat autem quae vel omnis nihil aliquam dolorem est? Rem dolorum unde, ut fugit, laboriosam nostrum quis repudiandae ab facilis.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum libero necessitatibus cupiditate nam id placeat nesciunt, dolorum non nisi et qui nulla deleniti ipsa provident blanditiis ab quasi, inventore. Quam.</p>
+                  <a href="#">www.jaime.prueba</a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-modal font-blue" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal fade" id="myModal-3" role="dialog">
+          <div class="modal-dialog margin-modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close btn-modal font-blue" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="col-lg-6 col-xs-12">
+                  <div class="box-img-small box-bg-3 mt-20 br-0"></div>
+                  <h4 class="mt-20 font-gray-dark line-height-small bold bold">Grim & Kreig</h4>
+                  <h5 class="font-blue line-height-small bold mb-50">avalada por la empresa</h5>
+                  <a href="#" class="icons-modal"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-6 col-xs-12 text-left">
+                  <h3 class="font-blue mt-20">Biografía</h3>
+                  <hr class="hr-blue-short">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem fugiat autem quae vel omnis nihil aliquam dolorem est? Rem dolorum unde, ut fugit, laboriosam nostrum quis repudiandae ab facilis.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum libero necessitatibus cupiditate nam id placeat nesciunt, dolorum non nisi et qui nulla deleniti ipsa provident blanditiis ab quasi, inventore. Quam.</p>
+                  <a href="#">www.jaime.prueba</a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-modal font-blue" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 4 -->
+        <div class="modal fade" id="myModal-4" role="dialog">
+          <div class="modal-dialog margin-modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close btn-modal font-blue" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="col-lg-6 col-xs-12">
+                  <p class="font-blue font-size-plus">A+</p>
+                  <h4 class="mt-20 font-gray-dark line-height-small bold bold">Factor de Riesgo</h4>
+                  <h5 class="font-blue line-height-small bold mb-50">Factor</h5>
+                  <a href="#" class="icons-modal"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#" class="icons-modal"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-6 col-xs-12 text-left">
+                  <h3 class="font-blue mt-20">Biografía</h3>
+                  <hr class="hr-blue-short">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem fugiat autem quae vel omnis nihil aliquam dolorem est? Rem dolorum unde, ut fugit, laboriosam nostrum quis repudiandae ab facilis.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum libero necessitatibus cupiditate nam id placeat nesciunt, dolorum non nisi et qui nulla deleniti ipsa provident blanditiis ab quasi, inventore. Quam.</p>
+                  <a href="#">www.jaime.prueba</a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-modal font-blue" data-dismiss="modal">Cerrar</button>
               </div>
             </div>
           </div>
