@@ -26,7 +26,7 @@
 	}
 	#contactanos{
 		display: block;
-    margin: auto;
+    	margin: auto;
 	}
 	.txt-banner{
 		padding-left: 0px;
@@ -119,6 +119,9 @@
 	}
 	.mt-10neg {
 		margin-top: -10px;
+	}
+	.box-apartar {
+		width: 100%;
 	}
 	/*Índice tabs*/
 	.nav-tabs>li {

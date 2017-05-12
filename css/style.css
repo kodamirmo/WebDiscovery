@@ -270,7 +270,6 @@ input {
 .pt-30 {
 	padding-top: 30px;
 }
-}
 .pt-1{
 	padding-top: 1%;
 }
@@ -606,6 +605,9 @@ input {
 .ml-5 {
 	margin-left: 5px;
 }
+.ml-20 {
+	margin-left: 20px;
+}
 .mr-20 {
 	margin-right: 20px;
 }
@@ -744,11 +746,21 @@ input {
 	margin: 0px 10px;
 }
 .btn-apartar {
+	transition: .5s;
 	width: 80%;
 	border: none;
 	border-radius: 10px;
 	font-size: 2em;
 	padding: 5px;
+}
+.btn-apartar:hover {
+	background-color: #0E9BD8;
+}
+.box-apartar {
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
 }
 /*** tabs-profile ***/
 .prueba {
