@@ -485,6 +485,9 @@ input {
 	border-top-left-radius: 17px;
 	border-top-right-radius: 17px;	
 }
+.mt-10 {
+	margin-top: 10px;
+}
 .mt-20 {
 	margin-top: 20px;
 }
@@ -615,6 +618,13 @@ input {
 	border: transparent;
 	color: #FFFFFF;
 	background-color: #4E4D55;
+	border-radius: 20px;
+	padding: 2px 7px;
+}
+.btn-blue-tabs {
+	border: transparent;
+	color: #FFFFFF;
+	background-color: #00b3ba;
 	border-radius: 20px;
 	padding: 2px 7px;
 }
@@ -834,7 +844,7 @@ input {
 	margin-left: 15px;
 }
 .form-tabs {
-	width: 70%;
+	width: 90%;
 	margin: auto;
 }
 .nav-tabs>li>a {
