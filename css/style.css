@@ -87,6 +87,9 @@ input {
 .font-0-5em{
 	font-size: 0.8em;
 }
+.font-red {
+	color: #c40000;
+}
 .bold {
 	font-weight: bold;
 }
@@ -190,6 +193,10 @@ input {
 	height: 80px;
 	margin-top: 4%;
 	margin-bottom: auto;
+}
+.btn-eliminar-arq {
+	float: right;
+	margin-right: 30px;
 }
 .hr-blue {
 	border: 1px solid #00b3ba;
