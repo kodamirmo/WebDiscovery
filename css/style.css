@@ -627,6 +627,9 @@ input {
 .mr-20 {
 	margin-right: 20px;
 }
+.mr-30 {
+	margin-right: 30px;
+}
 .btn-gray {
 	border: transparent;
 	color: #FFFFFF;
@@ -751,6 +754,9 @@ input {
 	border-radius: 5px;
 	color: #FFFFFF;
 	padding: 5px 10px;
+}
+.hover-white:hover {
+	color: #FFFFFF;
 }
 .modal-header{
     border-bottom: 0px solid #e5e5e5;
