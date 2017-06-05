@@ -1,6 +1,30 @@
 /* Extra small devices (phones, less than 400px) */
 /* No media query since this is the default in Bootstrap */
 @media only screen and (min-width:320px) and (max-width:768px){
+	/*CLASES AGREGADAS PARA LA MEJORA DE INDEX EN RESPOSIVE */
+	.text-slides-title {
+		font-size: 20px;
+	}
+	.text-slides {
+		font-size: 12px;
+	}
+	.carousel-inner {
+		margin-top: -7px;
+	}
+	.carousel-inner > .item > img {
+		height: 300px;
+	}
+	.media-carousel {
+	  padding: 0px;
+	  margin-top: 10px;
+	}
+	.left-to-slide {
+		float: left;
+	}
+	.bg-rgba-gray-slide{
+		padding: 10px 40px;
+	}
+	/*--------------------------------------------------------*/
 	h1{
 		font-size: 2.5em;
 		text-align: center;
