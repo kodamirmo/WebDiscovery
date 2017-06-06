@@ -36,8 +36,17 @@
 	.ml-0-mediaQ-negativo {
 		margin-left: -35px !important;
 	}
-
+	.br-mediaQ {
+		display: block;
+	}
+	.p-box-mediaQ >.box-border-white {
+		padding: 5px;
+	}
+	.p-calculadora {
+		padding: 5px;
+	}
 	/*--------------------------------------------------------*/
+	/* details tiene un scroll lateral que debe ser eliminado*/
 	h1{
 		font-size: 2.5em;
 		text-align: center;
