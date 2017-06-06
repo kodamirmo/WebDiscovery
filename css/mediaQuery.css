@@ -33,6 +33,9 @@
 	.pl-0-mediaQ {
 		padding-right: 0px;
 	}
+	.ml-0-mediaQ-negativo {
+		margin-left: -35px !important;
+	}
 
 	/*--------------------------------------------------------*/
 	h1{
