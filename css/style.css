@@ -562,8 +562,7 @@ input {
 }
 .box-years {
 	transition: .5s;
-	text-align: center;
-	margin: 15px 0px;
+	margin: 10px 0px;
 }
 .box-years:hover {
 	font-size: 25px;
