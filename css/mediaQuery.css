@@ -45,6 +45,23 @@
 	.p-calculadora {
 		padding: 5px;
 	}
+	.paddin-boxb {
+		padding: 0px;
+	}
+	.ml-controlR-responsive{
+		margin-top: 40px !important;
+		margin-left: -20px;
+	}
+	.mr-controlR-responsive{
+		margin-top: 40px !important;
+		margin-right: -20px;
+	}
+	.pb-responsive {
+		padding-bottom: 20px;
+	}
+	.btn-carousel {
+		padding: 5px;
+	}
 	/*--------------------------------------------------------*/
 	/* details tiene un scroll lateral que debe ser eliminado*/
 	h1{
