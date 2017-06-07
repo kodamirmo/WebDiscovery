@@ -18,6 +18,7 @@
 	  padding: 0px;
 	  margin-top: 10px;
 	}
+
 	.left-to-slide {
 		float: left;
 	}
@@ -65,6 +66,9 @@
 	.title-years {
 		position: absolute;
 		margin: 0px 20%;
+	}
+	.box-years{
+		margin: 0px;
 	}
 	/*--------------------------------------------------------*/
 	/* details tiene un scroll lateral que debe ser eliminado*/
