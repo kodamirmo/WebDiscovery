@@ -713,6 +713,15 @@ input {
 	color: #00b3ba;
 	text-decoration: underline;
 }
+.hover-blue:active {
+	color: #00b3ba;
+	text-decoration: underline;
+}
+.hover-blue:focus {
+	color: #00b3ba;
+	text-decoration: underline;
+}
+
 .bg-rgba-gray {
 	background-color: rgba(0, 0, 0, 0.64);
     position: relative;

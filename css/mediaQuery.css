@@ -62,6 +62,10 @@
 	.btn-carousel {
 		padding: 5px;
 	}
+	.title-years {
+		position: absolute;
+		margin: 0px 20%;
+	}
 	/*--------------------------------------------------------*/
 	/* details tiene un scroll lateral que debe ser eliminado*/
 	h1{
