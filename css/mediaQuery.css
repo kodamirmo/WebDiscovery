@@ -78,6 +78,10 @@
 
     width: 100%;
 	}	
+	.hr-white {
+		margin-top: 20px;
+		width: 100%;
+	}
 	/*--------------------------------------------------------*/
 	/* details tiene un scroll lateral que debe ser eliminado*/
 	h1{
